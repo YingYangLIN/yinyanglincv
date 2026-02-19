@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ying-Yang Lin's CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<div id="resume-container" class="container"></div>
+<script src="script.js" type="module"></script>
+<div class="container">
+    <div class="controls">
+        <button id="theme-toggle" class="btn">🌙/☀️</button>
+        <select id="lang-select" class="select-box">
+            <option value="zh">繁體中文</option>
+            <option value="en">English</option>
+            <option value="en">日本語</option>
+        </select>
+    </div>
+    <header class="profile-header">
+        <div class="profile-photo">
+            <img src="https://via.placeholder.com/150" alt="個人照片" id="user-photo">
+        </div>
+        <div class="profile-info">
+            <h1 id="user-name">載入中...</h1>
+            <p id="user-contact">📧 email@example.com | 📱 0912-345-678</p>
+            <p id="user-location">📍 台北, 台灣</p>
+        </div>
+    </header>
+
+    <hr>
+
+    <main id="resume-content"></main>
+</div>
+<body>
+</body>
+</html>
